@@ -1,0 +1,196 @@
+@import url('./reset.css');
+@font-face {
+    font-family: Roboto;
+    src: local(Roboto), url('../fonts/Roboto-Bold.ttf');
+}
+
+p{
+    color: black;
+    font-family: Roboto;
+}
+
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.my_image{
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.browse_bar{
+    position: relative;
+    top:10px;
+}
+
+.icons {
+    position: absolute;
+    right: 10px;
+    top:10px;
+    align-items: center;
+    
+}
+
+.upload_video {
+    margin-right: 20px;
+}
+
+.notifications {
+    margin-right: 20px;
+}
+
+.layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top:50px;
+}
+
+.video{
+    position: relative;
+    width: 70vw;
+    height: 70vh;
+    right: 2%;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.channel_infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.video_name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.controls p {
+    margin-left: 8px;
+}
+
+.controls .channel_infos {
+    margin-right: 20px;
+}
+
+.like_button{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    margin-right: 70px;
+    align-items: center;
+}
+
+.dislike_button {
+    display: flex;
+    flex-direction: row;
+    margin-right: 70px;
+    align-items: center;
+}
+
+.share_button {
+    display: flex;
+    flex-direction: row;
+    margin-right: 70px;
+    align-items: center;
+}
+
+.download_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sub_button {
+    margin-left: 60px;
+}
+
+.recomended {
+    display: flex;
+    flex-direction: column;
+}
+
+.video_recomended {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+}
+
+.video_recomended span {
+    margin-left: 10px;
+    line-height: 20px;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.channel {
+    font-size: 12px;
+}
+
+.views {
+    font-size: 12px;
+}
+
+.date {
+    font-size: 12px;
+}
+
+.channel_photo {
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+}
+
+.controls span {
+    margin-left: 6px;
+    line-height: 16.41px;
+}
+
+.channel_name {
+    font-size: 14px;
+    color: #000000;
+}
+
+.channel_subs {
+    font-size: 14px;
+    color: #515151;
+}
+
+.video_date {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.video_description {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
