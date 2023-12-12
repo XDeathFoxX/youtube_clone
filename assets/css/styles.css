@@ -58,9 +58,9 @@ p{
 
 .video{
     position: relative;
-    width: 70vw;
+    width: 60vw;
     height: 70vh;
-    right: 2%;
+    right: 3%;
 }
 
 iframe {
@@ -86,10 +86,14 @@ iframe {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 1000px;
 }
 
 .controls p {
-    margin-left: 8px;
+    margin-left: 2px;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
 }
 
 .controls .channel_infos {
@@ -99,22 +103,22 @@ iframe {
 .like_button{
     display: flex;
     flex-direction: row;
-    margin-left: 20%;
-    margin-right: 70px;
+    margin-right: 25px;
     align-items: center;
+    margin-left: 20px;
 }
 
 .dislike_button {
     display: flex;
     flex-direction: row;
-    margin-right: 70px;
+    margin-right: 25px;
     align-items: center;
 }
 
 .share_button {
     display: flex;
     flex-direction: row;
-    margin-right: 70px;
+    margin-right: 25px;
     align-items: center;
 }
 
@@ -125,7 +129,7 @@ iframe {
 }
 
 .sub_button {
-    margin-left: 60px;
+    margin-left: 5px;
 }
 
 .recomended {
